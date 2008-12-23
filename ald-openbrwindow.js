@@ -16,4 +16,3 @@ function ald_OpenBrWindow(theURL, winName, features, myWidth, myHeight, isCenter
 	if(features!='') settings +=','+features;		// add features passed as argument
 	ald_win = window.open(theURL,winName,settings);
 }
-
