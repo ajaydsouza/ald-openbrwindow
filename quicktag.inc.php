@@ -22,12 +22,10 @@ function aldobw_quicktag()
 					tagStart = '<a href="' + URL + '"';
 					var defaultWidth = prompt('Enter the width' ,'640');
 					var defaultHeight = prompt('Enter the height' ,'480');
-					var defaultTitle = prompt('Enter the title of the window','');
 					if ((!defaultWidth)||(isNaN(defaultWidth))) defaultWidth = 640;
 					if ((!defaultHeight)||(isNaN(defaultHeight))) defaultHeight = 480;
 					
-					tagStart += ' onclick="ald_OpenBrowserWindow(this.href,\'aldobw\',\'' + defaultWidth + '\',\'' + defaultHeight + '\',true';
-					if (defaultTitle) tagStart += ',\''+defaultTitle+'\'';
+					tagStart += ' onclick="ald_OpenBrowserWindow(this.href,\'aldobw\',\'\',\'' + defaultWidth + '\',\'' + defaultHeight + '\',true';
 					tagStart +='); return false"';
 					tagStart +='>';
 					

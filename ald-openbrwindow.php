@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Open Browser Window
-Version: 1.2
+Version: 1.2.1
 Plugin URI: http://ajaydsouza.com/wordpress/plugins/open-browser-window-plugin/
 Description: Opens a new browser window using JavaScript. You have the option to choose the features as well as choose if you want it to be centered.
 Author: Ajay D'Souza 
