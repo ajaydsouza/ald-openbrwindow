@@ -25,7 +25,7 @@ function aldobw_quicktag()
 					if ((!defaultWidth)||(isNaN(defaultWidth))) defaultWidth = 640;
 					if ((!defaultHeight)||(isNaN(defaultHeight))) defaultHeight = 480;
 					
-					tagStart += ' onclick="ald_OpenBrowserWindow(this.href,\'aldobw\',\'\',\'' + defaultWidth + '\',\'' + defaultHeight + '\',true';
+					tagStart += ' onclick="ald_OpenBrWindow(this.href,\'aldobw\',\'\',\'' + defaultWidth + '\',\'' + defaultHeight + '\',true';
 					tagStart +='); return false"';
 					tagStart +='>';
 					
